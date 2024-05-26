@@ -1,2 +1,3 @@
-# faculdade-ciencia-da-computacao
-Repositório com materiais do curso
+# Ciência da Compuração
+
+## Repositório para acompanhar os estudos e materiais da graduação.
