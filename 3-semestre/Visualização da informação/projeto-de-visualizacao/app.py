@@ -1,27 +1,46 @@
 import streamlit as st
 import pandas as pd
-
-@st.cache_data
-def load_data():
-    tabela = pd.read_csv("caso_full.csv")
-    tabela_rs = tabela[tabela["state"] == "RS"]
-    return tabela_rs
-
+    
+# Definindo o títuto da página
 st.set_page_config(page_title="Visualização da informação")
 
+# Difinindo o cabeçalho da página
 st.title("Visualização da Informação")
 
+# Link para o dataset
+st.link_button("Fonte do Dataset", "https://brasil.io/dataset/covid19/caso_full/", help="https://brasil.io/dataset/covid19/caso_full/")
+
+# Definindo o primeiro gráfico
 with st.container():
+
+    tabela = pd.read_csv("tabela_poa.csv")
+
     st.divider()
     st.header("Gráfico 1")
-    st.text("Esse gráfico ...")
-    dados = load_data()
-    st.bar_chart(dados, x="state", y="estimated_population")
+    st.text("Esse gráfico apresenta o número de vítimas de Covid-19 na cidade de Porto Alegre")
 
-st.divider()
-st.header("Gráfico 2")
-st.text("Esse gráfico ...")
+    st.area_chart(tabela, x="date", y="new_deaths")
 
-st.divider()
-st.header("Gráfico 3")
-st.text("Esse gráfico ...")
+
+
+# Definindo o segundo gráfico
+with st.container():
+
+    tabela = pd.read_csv("tabela_poa.csv")
+
+    st.divider()
+    st.header("Gráfico 2")
+    st.text("Esse gráfico apresenta os artistas mais tocados no Spotify")
+
+    st.bar_chart(tabela, x="date", y="new_deaths")
+
+# Definindo o terceiro gráfico
+with st.container():
+
+    tabela = pd.read_csv("tabela_poa.csv")
+
+    st.divider()
+    st.header("Gráfico 3")
+    st.text("Esse gráfico apresenta o número de vítimas de Covid-19 na cidade de Porto Alegre")
+
+    st.area_chart(tabela, x="date", y="new_deaths")
