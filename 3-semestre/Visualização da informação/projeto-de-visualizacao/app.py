@@ -16,12 +16,10 @@ with st.container():
     tabela = pd.read_csv("tabela_poa.csv")
 
     st.divider()
-    st.header("Gráfico 1")
-    st.text("Esse gráfico apresenta o número de vítimas de Covid-19 na cidade de Porto Alegre")
+    st.header("Gráfico de área")
+    st.text("Esse gráfico apresenta o número de casos confirmados de Covid-19 na cidade de Porto Alegre")
 
-    st.area_chart(tabela, x="date", y="new_deaths")
-
-
+    st.area_chart(tabela, x="date", y="last_available_confirmed")
 
 # Definindo o segundo gráfico
 with st.container():
@@ -29,10 +27,10 @@ with st.container():
     tabela = pd.read_csv("tabela_poa.csv")
 
     st.divider()
-    st.header("Gráfico 2")
-    st.text("Esse gráfico apresenta os artistas mais tocados no Spotify")
+    st.header("Gráfico de barras")
+    st.text("Esse gráfico apresenta o número de mortes confirmadas de Covid-19 na cidade de Porto Alegre")
 
-    st.bar_chart(tabela, x="date", y="new_deaths")
+    st.bar_chart(tabela, x="date", y="last_available_deaths")
 
 # Definindo o terceiro gráfico
 with st.container():
@@ -40,7 +38,7 @@ with st.container():
     tabela = pd.read_csv("tabela_poa.csv")
 
     st.divider()
-    st.header("Gráfico 3")
-    st.text("Esse gráfico apresenta o número de vítimas de Covid-19 na cidade de Porto Alegre")
+    st.header("Gráfico de linhas")
+    st.text("Esse gráfico apresenta o número de mortes por Covid-19 para cada 100 mil gabitantes na cidade de Porto Alegre")
 
-    st.area_chart(tabela, x="date", y="new_deaths")
+    st.line_chart(tabela, x="date", y="last_available_confirmed_per_100k_inhabitants")
