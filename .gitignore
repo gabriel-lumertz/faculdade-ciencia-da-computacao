@@ -3,3 +3,6 @@ raw/
 
 # Saídas do Claude — não versionar
 Claude outputs/
+
+# Template de mensagem de commit local — não versionar
+.gitmessage
