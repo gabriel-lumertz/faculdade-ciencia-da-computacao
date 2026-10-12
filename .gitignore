@@ -1,0 +1,5 @@
+# Arquivos originais (PDFs, zips) — não versionar
+raw/
+
+# Saídas do Claude — não versionar
+Claude outputs/
