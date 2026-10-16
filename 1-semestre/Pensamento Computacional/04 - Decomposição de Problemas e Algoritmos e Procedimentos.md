@@ -87,7 +87,10 @@ Um outro exemplo interessante seria a tarefa de desenha um quadrado. Se pensarmo
 
 - **Decompondo o problema – desenhar um quadrado**
 
-- 1 – Desenhe uma reta para direita; 2 – Desenhe uma reta para baixo; 3 – Desenhe uma reta para esquerda; 4 – Desenhe uma reta para cima.
+- 1 – Desenhe uma reta para direita;
+- 2 – Desenhe uma reta para baixo;
+- 3 – Desenhe uma reta para esquerda;
+- 4 – Desenhe uma reta para cima.
 
 O exemplo acima é o resultado da aplicação da estratégia de decompor um problema. Dividimos uma tarefa maior em pequenas tarefas sem nos preocuparmos com a solução, ou seja, sem a preocupação detalhada da solução do problema.
 
@@ -153,7 +156,10 @@ Voltemos ao exemplo da tarefa de desenhar um quadrado. Já decompomos o problema
 
 - **Decompondo o problema – desenhar um quadrado**
 
-- 1 – Desenhe uma reta para direita; 2 – Desenhe uma reta para baixo; 3 – Desenhe uma reta para esquerda; 4 – Desenhe uma reta para cima.
+- 1 – Desenhe uma reta para direita;
+- 2 – Desenhe uma reta para baixo;
+- 3 – Desenhe uma reta para esquerda;
+- 4 – Desenhe uma reta para cima.
 
 Porém, para resolução do problema, devemos criar um algoritmo.
 
@@ -161,7 +167,11 @@ Porém, para resolução do problema, devemos criar um algoritmo.
 
 - **Algoritmo – desenhar um quadrado**
 
-- 1 – Posicione a caneta na superfície; 2 – Percorra 50 unidades de medida e direcione a caneta 90 graus; 3 – Percorra 50 unidades de medida e direcione a caneta 90 graus; 4 – Percorra 50 unidades de medida e direcione a caneta 90 graus; 5 – Percorra 50 unidades de medida e direcione a caneta 90 graus.
+- 1 – Posicione a caneta na superfície;
+- 2 – Percorra 50 unidades de medida e direcione a caneta 90 graus;
+- 3 – Percorra 50 unidades de medida e direcione a caneta 90 graus;
+- 4 – Percorra 50 unidades de medida e direcione a caneta 90 graus;
+- 5 – Percorra 50 unidades de medida e direcione a caneta 90 graus.
 
 O algoritmo acima descreve detalhadamente o passo a passo para a solução de nosso problema: desenhar um quadrado.
 
@@ -173,31 +183,11 @@ O que é Algoritmo? Disponível em: https://bit.ly/2JiD2zn.
 
 ### Implementado o algoritmo no Scratch
 
-```python
-ListaNomes = []
-ListaNomes.append("João")
-ListaNomes.append("Maria")
-ListaNomes.append("Anna")
-ListaNomes.append("Clara")
-```
-
 ###### Acesse a plataforma Scratch por meio do link: https://bit.ly/1A9CAq4.
 
 Comece arrastando para a área de codificação um comando “quando for clicado” conforme podemos observar na figura 3.
 
-```python
-ListaNomes = []
-
-while True:
-    nome = input("Digite um nome ")
-    ListaNomes.append(nome)
-
-    continuar = input("Deseja continuar? Digite Sim ou Não ")
-    if(continuar=="Não" or continuar=="NÃO"):
-        break
-
-print(ListaNomes)
-```
+![[pco1-04-fig03.webp]]
 
 *Figura 3 – Arrastando comando “quando for clicado”*
 
@@ -205,10 +195,7 @@ print(ListaNomes)
 
 Agora devemos adicionar o bloco Caneta. Para isso, na área de seleção de abas, no canto inferior à esquerda, clique no botão Adicionar uma extensão.
 
-```python
-minhaLista = [1,2]
-print(minhaLista[0])
-```
+![[pco1-04-fig04.webp]]
 
 *Figura 4 – Adicionando uma extensão*
 
@@ -216,12 +203,7 @@ print(minhaLista[0])
 
 Na tela seguinte selecione a extensão Caneta.
 
-```text
-Result
-CPU Time: 0.01 sec(s), Memory: 7548 kilobyte(s)
-
-1
-```
+![[pco1-04-fig05.webp]]
 
 *Figura 5 – Extensão caneta*
 
@@ -229,12 +211,7 @@ CPU Time: 0.01 sec(s), Memory: 7548 kilobyte(s)
 
 Esse procedimento faz com que a aba Caneta seja adicionado ao Scratch. Agora, na aba Caneta, localize e arraste o comando “Use a caneta”.
 
-```python
-minhaLista3 = ["João", "Maria", "Anna", "Silva"]
-
-for elementos in minhaLista3:
-    print(elementos)
-```
+![[pco1-04-fig06.webp]]
 
 *Figura 6 – Extensão caneta*
 
@@ -254,15 +231,7 @@ Até o momento, nosso programa já está implementando o passo 1 de nosso algori
 
 Precisamos agora implementar o restante. Para isso, na aba Movimento localize e arraste os comandos “mova” e “gire graus” e os posicione conforme a imagem 7.
 
-```text
-Result
-CPU Time: 0.00 sec(s), Memory: 7716 kilobyte(s)
-
-João
-Maria
-Anna
-Silva
-```
+![[pco1-04-fig07.webp]]
 
 *Figura 7. Comandos de movimento*
 
@@ -282,20 +251,13 @@ Com isso implementamos o passo 2 de nosso algoritmo.
 
 Note que o passo 3, 4 e 5 de nosso algoritmo são iguais ao nosso passo 2. Sendo assim, repita o processo, ou seja, arraste os comandos “mova” e “gire graus” mais 3 vezes e os posicione conforme a imagem 8.
 
-```python
-minhaLista2 = [1, "Silva", 4.5 ]
-minhaLista2[0] = 2
-minhaLista2[1] = "João da Silva"
-```
+![[pco1-04-fig08.webp]]
 
 *Figura 8 – Comandos de movimento Fonte: Scratch*
 
 Testando nosso programa podemos perceber que ele realiza a tarefa de desenhar um quadrado.
 
-```python
-minhaLista3 = ["João", "Maria", "Anna", "Silva"]
-minhaLista3.pop()
-```
+![[pco1-04-fig09.webp]]
 
 *Figura 9 – Testando o programa Fonte: Scratch*
 
@@ -305,13 +267,7 @@ Nosso programa já executa o que é esperado, ou seja, desenha um quadrado, por�
 
 Para tanto, remova todos os blocos abaixo do comando “use a caneta”, conforme a figura 10.
 
-```python
-minhaLista3 = ["João", "Maria", "Anna", "Silva"]
-minhaLista3.pop()
-minhaLista3.pop()
-minhaLista3.pop()
-print(minhaLista3)
-```
+![[pco1-04-fig10.webp]]
 
 *Figura 10 – Melhorando nosso código*
 
@@ -319,11 +275,7 @@ print(minhaLista3)
 
 Em seguida, na aba Controle, localize e arraste um bloco “repita vezes” e configure a quantidade de voltas de nosso laço para 4 vezes, ficando conforme a figura 11.
 
-```python
-minhaLista3 = ["João", "Maria", "Anna", "Silva"]
-minhaLista3.remove("Maria")
-print(minhaLista3)
-```
+![[pco1-04-fig11.webp]]
 
 *Figura 11 – Inserindo um bloco repita*
 
@@ -331,13 +283,7 @@ print(minhaLista3)
 
 Agora, arraste os blocos “mova passos” e “gire graus” para dentro do bloco repita. Para o bloco mova configure o valor de 50 passos. Para o bloco gire graus configure o valor para 90 graus. Podemos ver essas configurações na imagem 12.
 
-```python
-minhaLista3 = ["João", "Maria", "Anna", "Silva"]
-minhaLista3.pop()
-minhaLista3.pop()
-minhaLista3.append("Fernanda")
-print(minhaLista3)
-```
+![[pco1-04-fig12.webp]]
 
 *Figura 12 – Configurando blocos mova e gire graus*
 
@@ -345,23 +291,13 @@ print(minhaLista3)
 
 Por fim, façamos o teste novamente de nosso programa.
 
-```python
-minhaTupla = ("João","Anna","Silva")
-print(minhaTupla[1])
-```
+![[pco1-04-fig13.webp]]
 
 *Figura 13 – Testando o programa*
 
 *Fonte: Scratch*
 
 Podemos perceber que nosso programa executa a tarefa de acordo com o objetivo, ou seja, desenhou um quadrado, porém, agora nosso programa possui um código mais intuitivo e de fácil alteração, uma vez que o trecho de código responsável por desenhar um quadrado na tela se resume em 4 comandos e não em 9, como no código original.
-
-```text
-Result
-CPU Time: 0.01 sec(s), Memory: 7708 kilobyte(s)
-
-Anna
-```
 
 ###### Escreva códigos para pessoas e não para máquinas: https://bit.ly/2UUXqfj.
 
