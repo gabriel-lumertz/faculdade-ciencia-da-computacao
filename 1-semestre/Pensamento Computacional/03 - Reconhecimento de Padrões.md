@@ -69,30 +69,19 @@ Primeiro, devemos configurar o evento responsável pelo Código que fará nosso 
 
 Para isso, localize, na aba Eventos, o comando “quando a tecla for pressionada”  e o arraste para a área de codificação.
 
-![[pc1-03-fig01.webp]]
+![[pco1-03-fig01.webp]]
 
 *Figura 1*
 
 Em seguida, clique na seta de configuração do comando e selecione “seta para direita”, como se pode observar na Figura 2.
 
-```python
-soma = 0
-for i in (0,1,2,3,4):
-    soma = soma +3
-    print(soma)
-```
+![[pco1-03-fig02.webp]]
 
 *Figura 2  – Arrastando um comando quando a tecla for pressionada*
 
 Agora, iremos arrastar os comandos responsáveis por movimentar o ator, para isso, localize a aba Movimento e arraste os comandos “aponte para a direção” e “mova passos”, como se pode ver na Figura 3.
 
-```text
-3
-6
-9
-12
-15
-```
+![[pco1-03-fig03.webp]]
 
 *Figura 3 – Arrastando comandos de movimento*
 
@@ -106,10 +95,7 @@ Agora, iremos arrastar os comandos responsáveis por movimentar o ator para a es
 
 Em seguida, clique na seta de configuração do comando e selecione “seta para esquerda”. Na sequência, localize a aba Movimento e arraste os comandos “aponte para a direção” e “mova passos”, como se vê na Figura 4.
 
-```python
-for i in (2,5,9,56,4,58):
-    print(i)
-```
+![[pco1-03-fig04.webp]]
 
 *Figura 4 – Arrastando comandos de movimento*
 
@@ -119,14 +105,7 @@ Iremos, agora, arrastar os comandos responsáveis por movimentar o ator para cim
 
 Em seguida, clique na seta de configuração do comando e selecione “seta para cima”. Na sequência, localize a aba Movimento e arraste os comandos “aponte para a direção” e “mova passos”, como se observa na Figura 5.
 
-```text
-2
-5
-9
-56
-4
-58
-```
+![[pco1-03-fig05.webp]]
 
 *Figura 5 – Arrastando comandos de movimento*
 
@@ -134,7 +113,7 @@ Nessa configuração, o comando “aponte para a direção”, quando executado,
 
 Por fim, iremos arrastar os comandos responsáveis por movimentar o ator para baixo. Primeiro localize, na aba Eventos, o comando “quando a tecla for pressionada” e o arraste para a área de codificação. Em seguida, clique na seta de configuração do comando e selecione “seta para baixo”. Na sequência, localize a aba Movimento e arraste os comandos “aponte para a direção” e “mova passos”, como se vê na Figura 6.
 
-![[pc1-03-fig06.webp]]
+![[pco1-03-fig06.webp]]
 
 *Figura 6 – Arrastando comandos de movimento*
 
@@ -148,22 +127,13 @@ Como sugestão, para introdução de movimentação de atores, acesse os tutoria
 
 Para isso, localize na aba Aparência os comandos “próxima fantasia” e “mude ao efeito cor”. Arraste esses comandos na sequência dos comandos responsáveis pela configuração da movimentação de nosso ator para a direita, como se observa na Figura 7.
 
-```python
-for i in range(5):
-    print(i)
-```
+![[pco1-03-fig07.webp]]
 
 *Figura 7 – Arrastando comandos de aparência*
 
 Nessa configuração, o comando “próxima fantasia” é responsável por alterar a imagem de nosso ator; já o comando “mude ao efeito cor” altera a cor do ator. Arraste essa mesma sequência para todas as configurações de movimento de nosso ator. Seu código deve ficar como se vê na Figura 8.
 
-```text
-0
-1
-2
-3
-4
-```
+![[pco1-03-fig08.webp]]
 
 *Figura 8 – Códigos de movimento do ator*
 
@@ -171,70 +141,31 @@ Para finalizarmos o Programa, devemos criar a configuração responsável por de
 
 Note que, por padrão, essa aba não está disponível. Assim, devemos adicionar essa aba. Desse modo, na área de seleção de abas, no canto inferior à esquerda, clique no botão Adicionar uma extensão:
 
-```python
-for i in range(0,15,2):
-    print(i)
-```
+![[pco1-03-fig09.webp]]
 
 *Figura 9 – Adicionando uma extensão*
 
 Na tela seguinte, selecione a extensão Caneta:
 
-```text
-Result
-CPU Time: 0.02 sec(s), Memory: 7800 kilobyte(s)
-
-0
-2
-4
-6
-8
-10
-12
-14
-```
+![[pco1-03-fig10.webp]]
 
 *Figura 10 – Extensão Caneta*
 
 Esse procedimento faz com que a aba Caneta seja adicionada ao _Scratch_ . Agora, na aba Caneta, localize e arraste o comando “Carimbe” para a sequência dos comandos responsáveis pela configuração da movimentação de nosso ator para a direita, como se vê na Figura 11:
 
-```python
-qtdMultiplos = 0
-for i in range(1,30):
-    if(i%3==0):
-        qtdMultiplos+=1
-        print(i)
-
-print("A quantidade de números divisíveis por 3 na sequência de 1 a 30 é",qtdMultiplos )
-```
+![[pco1-03-fig11.webp]]
 
 *Figura 11 – Comando carimbe*
 
 Arraste essa mesma sequência para todas as configurações de movimento de nosso ator. Seu código deve ficar como o da Figura 12:
 
-```text
-3
-6
-9
-12
-15
-18
-21
-24
-27
-A quantidade de números divisíveis por 3 na sequência de 1 a 30 é 9
-```
+![[pco1-03-fig12.webp]]
 
 *Figura 12 – Comandos para carimbar a imagem do ator na tela*
 
 Para finalizar, arraste um Bloco de eventos “quando for clicado”, na sequência na aba Caneta, localize e arraste um comando “apagar tudo”; por fim, arraste dois comandos da aba Movimento: “aponte para a direção” e “vá para X e Y”. Podemos ver essa configuração na Figura 13:
 
-```python
-minhaString = "ABCDEFGH"
-
-for x in minhaString:
-    print(x)
-```
+![[pco1-03-fig13.webp]]
 
 *Figura 13 – Limpando a tela*
 
@@ -242,19 +173,7 @@ Essa configuração irá garantir que, ao iniciar nosso Programa, a área do ato
 
 Testando nosso programa, podemos ver o resultado:
 
-```text
-Result
-CPU Time: 0.01 sec(s), Memory: 7716 kilobyte(s)
-
-A
-B
-C
-D
-E
-F
-G
-H
-```
+![[pco1-03-fig14.webp]]
 
 *Figura 14 – Testando o programa*
 
@@ -268,7 +187,7 @@ Em nosso Código, existem alguns padrões ou comandos que se repetem. Se consegu
 
 Analisando o código, podemos identificar que, logo depois do comando de identificação da tecla pressionada, todo o restante de código é semelhante para todos as configurações de movimento do ator.
 
-![[pc1-03-fig15.webp]]
+![[pco1-03-fig15.webp]]
 
 *Figura 15 – Código de nosso programa*
 
@@ -278,62 +197,25 @@ Nesse intuito, iremos criar um Bloco especial. Será um Bloco de comando criado 
 
 Para o nome do Bloco, digite “movimento”; em seguida, selecione a opção “adicionar uma entrada”, digite nesse campo “direção” e, por fim, clique no botão ok.
 
-```python
-contador = 0
-while (contador < 5):
-    contador+=1
-    print(contador)
-```
+![[pco1-03-fig16.webp]]
 
 *Figura 16 – Criando um Bloco*
 
 Arraste agora a sequência de Código responsável pelo movimento do ator para direita, assim como podemos ver na Figura 17:
 
-```text
-1
-2
-3
-4
-5
-```
+![[pco1-03-fig17.webp]]
 
 *Figura 17 – Configurando o Bloco movimento*
 
 Agora arraste o Bloco “Direção” para dentro do campo do comando “aponte para a direção”:
 
-```python
-nome = ""
-while True:
-    texto = input("Digite um nome ou '0' para encerrar o programa ")
-
-    if(texto == "0"):
-        print("Programa finalizado")
-        break
-    else:
-        nome = nome + texto +"\n"
-
-print(nome)
-```
+![[pco1-03-fig18.webp]]
 
 *Figura 18 – Alterando a variável*
 
 Na área de Código, localize o comando “quando a tecla seta para direita for pressionada” e arraste para a sequência o comando Movimento, como podemos ver na Figura 19.
 
-```python
-nome = ""
-continuar = True
-while continuar:
-    nome = nome + input("Digite um nome ") + "\n"
-
-    x = input("Deseja continuar? Digite 'Sim' ou 'Não' ")
-
-    if(x.upper() =="SIM"):
-        continuar = True
-    else:
-        continuar = False
-
-print(nome)
-```
+![[pco1-03-fig19.webp]]
 
 *Figura 19 – Configurando o movimento do ator*
 
@@ -345,17 +227,7 @@ O valor 90 foi adicionado pois é esse o valor que iremos utilizar no comando
 
 Faça esse procedimento em todos os comandos de “quando a tecla for pressionada”.
 
-```python
-contador = 0
-
-while contador < 10:
-    if(contador == 1 or contador == 3):
-        contador+=1
-        continue
-
-    print(contador)
-    contador+=1
-```
+![[pco1-03-fig20.webp]]
 
 *Figura 20 – Configurando o movimento do ator*
 
@@ -363,19 +235,7 @@ Comparado a quantidade de Códigos que tínhamos, nosso programa ficou mais clar
 
 Criamos um Código mais limpo e, caso seja necessária uma alteração referente ao movimento do ator, só será necessário alterar um trecho de Código, e não quatro trechos, como na versão anterior.
 
-```text
-Result
-executed in 0.838 sec(s)
-
-0
-2
-4
-5
-6
-7
-8
-9
-```
+![[pco1-03-fig21.webp]]
 
 *Figura 21 – Programa finalizado*
 
