@@ -140,13 +140,13 @@ A abordagem por meio de ensino de programação utiliza principalmente o _softwa
 
 A figura 1 apresenta uma visão geral dessa ferramenta.
 
-![[pc1-01-fig01.webp]]
+![[pco1-01-fig01.webp]]
 
 *Figura 1 – Área de desenvolvimento do _Scratch_*
 
 A forma de desenvolvimento do _Scratch_ é baseada em programação visual por meio de blocos. Com funções pré-programadas, o aprendiz, numa alusão ao brinquedo de encaixe Lego, arrasta e encaixa diferentes blocos de programação em lugares específicos, desse modo constrói seu programa de computador.  A figura 2 apresenta um exemplo de programa desenvolvido em _Scratch_ .
 
-![[pc1-01-fig02.webp]]
+![[pco1-01-fig02.webp]]
 
 *Figura 2 – Exemplo de um programa desenvolvido em _Scratch_*
 
