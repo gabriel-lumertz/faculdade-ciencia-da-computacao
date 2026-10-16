@@ -17,13 +17,13 @@ aliases: ["Pensamento Computacional - Unidade 2"]
 
 - **Promovendo Abstração na Prática: Jogo de Cartas Binário;**
 
-- **Par ou Ímpar: Criando um Programa no** **_Scratch_ .**
+- **Par ou Ímpar: Criando um Programa no** **_Scratch_.**
 
 ## Objetivos de Aprendizado
 
 - Explorar e promover um dos conceitos mais importantes do Pensamento Computacional: **a abstração** , um conceito que ajuda a entender um problema e a planejar uma boa solução;
 
-- Utilizar atividades desplugadas e também Programação de Computadores por meio do _Scratch_ .
+- Utilizar atividades desplugadas e também Programação de Computadores por meio do _Scratch_.
 
 ## Introdução
 
@@ -39,35 +39,7 @@ Um Mapa Mundial que mostra os países é uma abstração. É reduzido aos “pa�
 
 Mas se estivéssemos andando em São Paulo, um Mapa Mundial não teria detalhes suficientes para nos ajudar. Precisaríamos de um Mapa local que indicasse as ruas, os parques, os bairros etc. Nesse contexto, há muito mais detalhes, porque seria o necessário à situação.
 
-```python
-#atribuindo valores para variáveis a e b
-a = 2
-b = 3
-
-#operação de adição
-resultado = a + b
-print(resultado)
-
-#operação de subtração
-resultado = a - b
-print(resultado)
-
-#operação de multiplicação
-resultado = a * b
-print(resultado)
-
-#operação de divisão
-resultado = a / b
-print(resultado)
-
-#operação de exponenciação
-resultado = a ** b
-print(resultado)
-
-#operação de divisão de inteiros
-resultado = a // b
-print(resultado)
-```
+![[pco1-02-fig01.webp]]
 
 *Figura 1 – Mapa Mundi*
 
@@ -111,12 +83,7 @@ Nessa atividade, o aluno irá converter números decimais em números binários 
 
 Esses cartões são apresentados na Figura 2.
 
-```python
-a= "João"
-b= " Silva"
-
-print(a+b)
-```
+![[pco1-02-fig02.webp]]
 
 *Figura 2 – Cartões da Atividade Contando os Pontos*
 
@@ -126,14 +93,7 @@ No cartão 2, da direita para esquerda, temos a primeira carta com apenas um pon
 
 Veja a Figura 3.
 
-```text
-Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
-==== RESTART: C:/Users/Home/AppData/Local/Programs/Python/Python310/teste.py ===
-João Silva
->>> 
-```
+![[pco1-02-fig03.webp]]
 
 *Figura 3 – Cartas representando os números decimais*
 
@@ -143,7 +103,7 @@ As cartas contêm essas quantidades de pontos especificamente pois, na represent
 
 Veja a Figura 4.
 
-![[pc1-02-fig04.webp]]
+![[pco1-02-fig04.webp]]
 
 *Figura 4 – Cartas representando as potências de 2*
 
@@ -157,7 +117,7 @@ Iremos considerar as cartas “viradas para cima”, ou seja, exibindo os pontos
 
 Vejamos um exemplo na Figura 5.
 
-![[pc1-02-fig05.webp]]
+![[pco1-02-fig05.webp]]
 
 *Figura 5 – Sequência de cartas*
 
@@ -165,7 +125,7 @@ Vejamos um exemplo na Figura 5.
 
 Seguindo a lógica de que cartas para cima representam o número 1 e cartas para baixo representam o número 0, temos a seguinte sequência de número BINÁRIO.
 
-![[pc1-02-fig06.webp]]
+![[pco1-02-fig06.webp]]
 
 *Figura 6*
 
@@ -177,19 +137,17 @@ Vejamos o próximo exemplo de conversão de número binário para decimal.
 
 Observe a configuração da Imagem 7.
 
+![[pco1-02-fig07.webp]]
+
+*Figura 7*
+
 *Fonte: Acervo do Conteudista*
 
 Para converter essa sequência em número decimal, devemos primeiro descrever o número 0 para cartas viradas para baixo e o número 1 para cartas viradas para cima.
 
 Desse modo, temos:
 
-```python
-a=3
-b=4
-soma = a+b
-if (soma > 6):
-    print("Aluno aprovado")
-```
+![[pco1-02-fig08.webp]]
 
 *Figura 8*
 
@@ -205,7 +163,7 @@ Para converter um número decimal para binário, devemos partir com todas as car
 
 No exemplo a seguir, iremos converter o número 28 decimal para sua representação em binário.
 
-![[pc1-02-fig09.webp]]
+![[pco1-02-fig09.webp]]
 
 *Figura 9*
 
@@ -219,7 +177,7 @@ Para cada carta que conseguimos distribuir o valor, representamos com o número 
 
 Nesse cenário, temos o seguinte resultado:
 
-![[pc1-02-fig10.webp]]
+![[pco1-02-fig10.webp]]
 
 *Figura 10*
 
@@ -251,22 +209,13 @@ Para acessar a plataforma _Scratch_ , abra seu navegador _web_ (em nossos exempl
 
 A Figura 11 apresenta a tela inicial da plataforma _Scratch_ .
 
-```python
-a=3
-b=2
-soma = a+b
-
-if (soma > 6):
-    print("Aluno aprovado")
-else:
-    print("Aluno reprovado")
-```
+![[pco1-02-fig11.webp]]
 
 *Figura 11 – Página Inicial*
 
 Para traduzir a Plataforma para Língua Portuguesa, desça até o final da página e selecione a opção correspondente ao nosso idioma, conforme apresentado na Figura 12.
 
-![[pc1-02-fig12.webp]]
+![[pco1-02-fig12.webp]]
 
 *Figura 12 – Traduzindo a linguagem da plataforma*
 
@@ -290,7 +239,7 @@ Na Tabela a seguir, são descritas as funcionalidades de cada menu.
 
 A Figura 13 destaca os menus superiores, bem como os Projetos compartilhados pela comunidade do _Scratch_ na parte inferior da página.
 
-![[pc1-02-fig13.webp]]
+![[pco1-02-fig13.webp]]
 
 *Figura 13 – Menus da página inicial*
 
@@ -304,22 +253,13 @@ Ao clicar no menu Criar, acessamos a página de criação do _Scratch_ . Na prim
 
 A Figura 14 destaca o tutorial.
 
-```python
-a=1
-b=3
-soma = a+b
-
-if (soma > 6):
-    print("Aluno aprovado")
-elif (soma > 2):
-    print("Aluno pode realizar prova de recuperação")
-```
+![[pco1-02-fig14.webp]]
 
 *Figura 14 – Tutorial da página de criação*
 
 Antes de começarmos a criar nosso primeiro programa, iremos explorar a página de criação destacada na Figura 15.
 
-![[pc1-02-fig15.webp]]
+![[pco1-02-fig15.webp]]
 
 *Figura 15 – Página de criação*
 
@@ -351,36 +291,21 @@ Primeiro, devemos configurar um evento que irá disparar a ação que iremos cri
 
 Desse modo, na Área de Blocos de Comando, localize a categoria “Eventos”, clique com o botão esquerdo do mouse sobre o comando e, sem soltar o botão do mouse, arraste para a área de Código, como podemos ver na Figura 16.
 
-```python
-a=1
-b=5
-frequencia = 80
-
-if (frequencia > 75):
-    soma = a+b
-    if(soma > 6):
-        print("Aluno aprovado")
-    elif(soma > 2):
-        print("Aluno pode realizar prova de recuperação")
-    else:
-        print("Aluno reprovado")
-else:
-    print("Aluno reprovado direto")
-```
+![[pco1-02-fig16.webp]]
 
 *Figura 16 – Arrastando um bloco de eventos*
 
 Em seguida, localize a categoria “Sensores” e arraste o bloco (“Pergunte e espere”) para a Área de Código, “encaixe” logo abaixo do Bloco de eventos e altere o texto do Bloco para “Digite um número”, conforme podemos ver na Figura 17.
 
-![[pc1-02-fig17.webp]]
+![[pco1-02-fig17.webp]]
 
 *Figura 17 – Arrastando um bloco pergunte*
 
 Agora, localize a categoria “Controle”, arraste o Bloco representado abaixo (“se então”) para a área de Código e “encaixe” logo abaixo do Bloco “pergunte”, conforme podemos ver na Figura 18.
 
-![[pc1-02-fig18.webp]]
+![[pco1-02-fig18.webp]]
 
-![[pc1-02-fig19.webp]]
+![[pco1-02-fig19.webp]]
 
 *Figura 18 – Arrastando um Bloco condicional*
 
@@ -390,19 +315,19 @@ Para isso, iremos utilizar um operador de igualdade e a função “resto de” 
 
 Comece arrastando e encaixando o comando para dentro do encaixe do bloco se então, conforme podemos ver na Figura 19.
 
-![[pc1-02-fig20.webp]]
+![[pco1-02-fig20.webp]]
 
 *Figura 19 – Arrastando um bloco de operador de igualdade*
 
 Em seguida, ainda na categoria Operadores, localize e arraste o comando resto de por para dentro do primeiro encaixe do comando de operação de igualdade, conforme podemos ver na Figura 20.
 
-![[pc1-02-fig21.webp]]
+![[pco1-02-fig21.webp]]
 
 *Figura 20 – Arrastando um Bloco resto de por*
 
 O passo seguinte será vincular o número digitado pelo usuário de nosso Programa à operação matemática. Para isso, na categoria Sensores, localize e arraste o comando resposta para o primeiro encaixe do comando resto de por, conforme podemos ver na Figura 21.
 
-![[pc1-02-fig22.webp]]
+![[pco1-02-fig22.webp]]
 
 *Figura 21 – Arrastando um Bloco resposta*
 
@@ -422,17 +347,17 @@ Por fim, iremos criar a programação que irá exibir uma mensagem caso o númer
 
 Veja a Figura 24.
 
-![[pc1-02-fig23.webp]]
+![[pco1-02-fig23.webp]]
 
 *Figura 24 – Arrastando um bloco diga*
 
 Concluímos nosso Programa, agora devemos testá-lo. Para isso, clique no local indicado na Figura 25.
 
-![[pc1-02-fig24.webp]]
+![[pco1-02-fig24.webp]]
 
 *Figura 25 – Testando o programa*
 
-![[pc1-02-fig25.webp]]
+![[pco1-02-fig25.webp]]
 
 *Figura 26 – Testando o programa*
 
