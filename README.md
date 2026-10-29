@@ -4,7 +4,6 @@ Repositório para acompanhar os estudos e materiais da graduação em Ciência d
 
 ## Conteúdo
 
-- **Faculdade.md**: índice geral das notas, para navegar no Obsidian.
 - **`<N>-semestre/<Matéria>/`**: notas de cada disciplina.
 
 ## Organização das notas
